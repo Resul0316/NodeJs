@@ -36,7 +36,6 @@ const url = require('url');
 //* * * * * * * * * * * * * * * * *//
 
 
-
 //* * * * * * * * Server * * * * * * * * *//
 
 const replaceTEmplate = (temp,product) =>{
@@ -62,7 +61,6 @@ const tempProduct = fs.readFileSync(`${__dirname}/templates/template-product.htm
 const data = fs.readFileSync(`${__dirname}/dev-data/data.json`, 'utf-8'); 
 const dataObj = JSON.parse(data)
 
-
 const server = http.createServer((req,res) =>{
     const pathName = req.url;;
     //* Overview Page
@@ -81,7 +79,6 @@ const server = http.createServer((req,res) =>{
         
         res.writeHead(200, {'Content-type' : 'application/json'})
         res.end(data);
-        
     }
     //*NOT Found
      else {
