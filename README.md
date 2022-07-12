@@ -1,3 +1,3 @@
-# NodeJs
+# Master branch of NodeJs
 
-With this course I will learn the NodeJs.
+NodeJs Tutorial!
