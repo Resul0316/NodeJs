@@ -1,3 +1,3 @@
-# NodeJs
+# Development Branch of NodeJs course!
 
-With this course I will learn the NodeJs.
+NodeJs Tutorial!
